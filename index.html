@@ -6,11 +6,22 @@
 </head>
 <link rel="shortcut icon" href="favicon.png" />
 <style>
-body {
-  background-image: url('closed.jpg');
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("closed.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%;
+  background-size: cover;
 }
   .footer {
   position: fixed;
@@ -26,8 +37,10 @@ a {
 }
 </style>
 <body>
+<div class="bg">
 <div class="footer">
 <p><strong><a href="mailto:info@sg42.se">info@sg42.se</a></strong></p>
 </div>
+ </div>
 </body>
 </html>
