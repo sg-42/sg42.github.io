@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<meta charset="UTF-8">
+<title>SG42 Internet AB</title>
 </head>
+<style>
+body {
+  background-image: url('closed.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
+<p style="text-align: center;"><strong><a href="mailto:info@sg42.se">info@sg42.se</a></strong></p>
 </body>
+
 </html>
